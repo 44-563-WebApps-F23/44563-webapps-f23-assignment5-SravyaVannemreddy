@@ -12,10 +12,25 @@
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <style>
+        *{
+          box-sizing: border-box;
+        }
+        
+        .row {
+          display: flex;
+        }
+        
+        /* Create three equal columns that sits next to each other */
+        .column {
+          flex: 33.33%;
+          padding: 5px;
+        }
+        </style>
 </head>
 <body>
     <div class="container">
-        <div class="row" style="color: chartreuse;">
+        <div class="row" style="color: blueviolet;">
             
             <div  class="col-sm-2" >
                 S
@@ -57,17 +72,111 @@
                     Austin
                 </div>
           </div>
+          <p style="color:b ;">The page is breaking at 573.33px and 595.33 px, cities row is breaking first and 
+            then the letters row is breaking.
+          </p>
     
+          <div class="row" >
+            <div class="column" >
+          <h6> Raleigh city </h6>
+           <img src="./images/raleigh.jpg" class="rounded" alt="raleigh" height="150" width="200">
+          </div>
+          <div class="column" >
+            <h6>Seattle city</h6>
+            <img src="./images/seattle.jpg" class="rounded" alt="seattle" height="150" width="200">
+            </div>
+            <div class="column">
+                <h6>Virginia city</h6>
+                <img src="./images/Virginia.jpg" class="rounded" alt="seattle" height="150" width="200">
+                </div>
 
+                <div class="row" >
+                <div class="column">
+                    <img src="./images/raleigh.jpg" class="img-fluid" alt="raleigh" height="400" width="500">
+        </div>
         
+        <div class="column">
+            <img src="./images/seattle.jpg" class="img-fluid" alt="seattle" height="400" width="500">
+        </div>
+        <div class="column">
+            <img src="./images/Virginia.jpg" class="img-fluid" alt="Virginia" height="400" width="500">
+        </div>
+        </div>
+        <div class="row">
+        <div class="column">
+            <img src="./images/raleigh.jpg" class="img-thumbnail" alt="raleigh" height="400" width="500">
+            </div>
+            <div class="column">
+                <img src="./images/seattle.jpg" class="img-thumbnail" alt="seattle" height="400" width="500">
+                </div>
+                <div class="column">
+                    <img src="./images/Virginia.jpg" class="img-thumbnail" alt="Virginia" height="400" width="500">
+                    </div>
+                        </div>
+                        </div>
         
-</div>
-</br>
-      <p style="color:blue;">The page is breaking at 573.33px and 595.33 px, cities row is breaking first and 
-        then the letters row is breaking.
-      </p>
+                        <table class="table table-striped">
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Letter</th>
+                                <th scope="col">City</th>
+                                <th scope="col">River</th>
+                                <th scope="col">Tree</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row"> 1</th>
+                                <td>S</td>
+                                <td>Seattle</td>
+                                <td>Sindhu river</td>
+                                <td>Satin leaf</td>
+                              </tr>
+                              <tr>
+                                <th scope="row"> 2</th>
+                                <td>R</td>
+                                <td>Raleigh</td>
+                                <td>Ruby river</td>
+                                <td>Red Wood</td>
+                              </tr>
+                              <tr>
+                                <th scope="row"> 3</th>
+                                <td>A</td>
+                                <td>Arkansas</td>
+                                <td>Albama river</td>
+                                <td>Aliso</td>
+                              </tr>
+                              <tr>
+                                <th scope="row"> 4</th>
+                                <td>V</td>
+                                <td>Virginia</td>
+                                <td>Verde river</td>
+                                <td>Violets</td>
+                              </tr>
+                              <tr>
+                                <th scope="row"> 5</th>
+                                <td>Y</td>
+                                <td>Yonkers</td>
+                                <td>Yampa river</td>
+                                <td>Yucca</td>
+                              </tr>
+                              <tr>
+                                <th scope="row"> 6</th>
+                                <td>A</td>
+                                <td>Austin</td>
+                                <td>Abita river</td>
+                                <td>Apple</td>
+                              </tr>
+                            </tbody>
+                          </table>
+
      
+      
+      
 
 
+            
+</div>
 </body>
 </html>
